@@ -1,12 +1,12 @@
-#ifndef CHAINE2_H
-#define CHAINE2_H
+#ifndef CHAINE_H
+#define CHAINE_H
 #include <string>
-class Chaine2
+class Chaine
 { public:
 Chaine2();//Constructeur par defaut
 Chaine2(int);//Constructeur par une taille
 Chaine2(const std::string);//Constructeur par une constante C.C
-Chaine2(char);//Constructeur par un caractère
+Chaine2(char);//Constructeur par un caractÃ¨re
 Chaine2(const Chaine2 &);//Constructeur de copie
 ~Chaine2();
 int getTaille();
